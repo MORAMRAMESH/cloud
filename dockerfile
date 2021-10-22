@@ -8,5 +8,5 @@ WORKDIR /var/www/html
 RUN unzip evolve.zip
 RUN cp -rvf evolve/* .
 RUN rm -rf evolve evolve.zip
-CMD ["/usr/sbin/httpd", "-D", FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
