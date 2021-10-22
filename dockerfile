@@ -9,5 +9,5 @@ RUN unzip evolve.zip
 RUN cp -rvf evolve/* .
 RUN rm -rf evolve evolve.zip
 CMD ["/usr/sbin/httpd", "-d", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 8081
 RUN /bin/bash
