@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER ramesh.moramesh@gmail.com
-RUN apt install -y httpd \
+RUN apt-get install -y httpd \
 zip \
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page272/evolve.zip /var/www/html/
