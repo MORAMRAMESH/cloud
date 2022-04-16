@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM centos stream:latest
 MAINTAINER ramesh.moramesh@gmail.com
-RUN apt-get install -y httpd \
+RUN dnf install -y httpd \
 zip \
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page272/evolve.zip /var/www/html/
