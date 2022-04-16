@@ -1,4 +1,4 @@
-FROM centos stream:latest
+FROM centos: stream
 MAINTAINER ramesh.moramesh@gmail.com
 RUN dnf install -y httpd \
 zip \
